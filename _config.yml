@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Santhosh Vaiyapuri
 tagline:          'Personal Website'
-description:      'This is the Personal Webpage of Santhosh. It also links to his resume and blog.'
+description:      'This is the Personal Webpage of Santhosh Vaiyapuri. It also links to his resume and blog.'
 url:              http://santhosh.info
 baseurl:          /
 
