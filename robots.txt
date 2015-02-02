@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /public/images/
 Disallow: /public/files/
 Disallow: /cgi-bin/
-Sitemap: /sitemap.xml
+Sitemap: http://www.santhosh.info/sitemap.xml
