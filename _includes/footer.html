@@ -1,0 +1,17 @@
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+  <div id="foot-inner">
+  {% if page.path contains '_posts' %}
+  If you liked this post, you can
+  <a href="https://twitter.com/intent/tweet?url={{ site.url | append:page.url }}&text={{ page.title }}&via=santhoshvai"
+   target="_blank">
+  share it on Twitter</a>
+  {% else %}
+  <ul class="contact-list">
+        <li><a href="https://twitter.com/santhoshvai">Twitter</a></li>
+        <li><a href="http://www.linkedin.com/in/santhoshvaiyapuri">LinkedIn</a></li>
+        <li><a href="https://github.com/santhoshvai">GitHub</a></li>
+  </ul>
+  {% endif %}
+  </div>
+  <p id="foot">&copy; {{ site.time | date: '%Y' }}. Santhosh Vaiyapuri.<a href="/atom.xml"><span class="feed"></span></a></p>
+</footer>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+
+    {% include navbar.html %}
+    <div  id="about-content" class="clearfix">
+      <div class="clearfix">
+  <div class="asymetrical-columns-left reading-block clearfix">
+    <div id="photo-and-caption">
+        <div id="photo">
+            <img src="/public/images/profile_photo.jpg" alt="Santhosh's profile photo">
+          </div>
+          <p>Software Engineer in <a href="http://ict.eu/">ICT Automatisering</a>.</p>
+    </div>
+
+    <div id="fun-facts">
+            <h2>Fun&nbsp;facts</h2>
+            <ul>
+              <li>Traveled to 3 countries and 2&nbsp;continents.</li>
+              <li>Never got&nbsp;drunk.</li>
+              <li>Can code and&nbsp;design.</li>
+              <li>Doesn’t own a&nbsp;TV.</li>
+              <li>Ardent fan of <a href="http://en.wikipedia.org/wiki/Sachin_Tendulkar">SRT</a> and <a href="http://en.wikipedia.org/wiki/A._R._Rahman">ARR</a></li>
+            </ul>
+    </div>
+</div>
+  <div class="asymetrical-columns-right reading-block">
+    <h1>About Me</h1>
+    {{ content }}
+  </div>
+</div>
+{% include footer.html %}
+</div>
+</body>
+</html>

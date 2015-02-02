@@ -1,0 +1,38 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:  /blog/:title
+relative_permalinks: true
+
+# Setup
+title:            Santhosh Vaiyapuri
+tagline:          'Personal Website'
+description:      'This is the Personal Webpage of Santhosh. It also links to his resume and blog.'
+url:              http://santhosh.info
+baseurl:          /
+
+author:
+  name:           'Santhosh Vaiyapuri'
+  twitter:        'santhoshvai'
+  url:            https://twitter.com/santhoshvai
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+# http://www.xorcode.com/2012/08/16/generate-bitly-links-on-the-fly-with-jekyll-and-liquid/
+bitly:
+  username:       santhoshvai
+  api_key:        R_cd9f335dde9669e482c420033d1f000a
+
+gems:
+  - jekyll-sitemap
+
+# Google
+# http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /public/images/
+Disallow: /cgi-bin/
+Sitemap: http://www.santhosh.info/sitemap.xml

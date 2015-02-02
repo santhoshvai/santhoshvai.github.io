@@ -1,0 +1,19 @@
+---
+layout: page
+title: blog
+---
+<div class="blog">
+  <h2>Totally {{ site.posts | size }} posts!</h2>
+  <ul class="blog-posts">
+    {% for post in site.posts %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

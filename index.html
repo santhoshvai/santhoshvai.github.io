@@ -1,0 +1,30 @@
+---
+layout: index
+title: Home
+---
+
+<!-- Hi, My name is Santhosh. I love to design and develop software. -->
+<h1 id="intro">Hi, my name is Santhosh.<br>I love to design and develop software.</h1>
+<div class="clearfix">
+    <div class="column-half clearfix">
+        <h2>Latest posts</h2>
+        <ul class="latest-posts">
+          {% for post in paginator.posts limit:3 %}
+          <li>
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            <small>{{ post.date | date_to_string }}</small>
+          </li>
+    {% endfor %}
+    </ul>
+    </div>
+    <div class="column-half clearfix">
+        <h2>Featured projects</h2>
+        <h4><a href="https://github.com/AlgorithmCrackers/Interview-Questions">
+          Interview-Questions</a></h4>
+        <small>An evergrowing collection of Software engineering interview questions along with solutions.</small>
+        <!-- <h4><a href="/hyde-starter-kit/">
+            Hyde Starter Kit</a></h4>
+        <small>An introductory template helping you start with Hyde, a static
+        website generator.</small> -->
+    </div>
+</div>
