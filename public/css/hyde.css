@@ -103,6 +103,18 @@ html {
   color: #EAD075;
   text-align:center;
 }
+/* Font size adjusts */
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 137.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 105%;
+  }
+}
 /* Small-Tablets */
 @media (min-width: 35.5em) {
   #index-content {
@@ -227,14 +239,15 @@ html {
 }
 /* the twitter, linkedin.. signature */
 .contact-list {
-  text-align: center;
-  font-size: 0.6rem;
-  margin: 0 auto;
-  padding: 0.2em;
+  display: none;
 }
 @media (min-width: 48em) {
   .contact-list {
     font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.2em;
+    display: block;
   }
 }
 .contact-list li {

@@ -102,7 +102,7 @@ nav li a:hover {
     padding-bottom: 0.2rem;
   }
 }
-
+/* Font size adjusts */
 @media screen and (min-width: 1400px) {
   html {
     font-size: 137.5%;
@@ -112,5 +112,14 @@ nav li a:hover {
 @media (max-width: 480px) {
   html {
     font-size: 105%;
+  }
+  h1 {
+      font-size: 160%;
+  }
+  nav {
+      font-size: 140%;
+  }
+  .navbar {
+      line-height: 1.5;
   }
 }
