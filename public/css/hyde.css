@@ -103,18 +103,6 @@ html {
   color: #EAD075;
   text-align:center;
 }
-/* Font size adjusts */
-@media screen and (min-width: 1400px) {
-  html {
-    font-size: 137.5%;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 105%;
-  }
-}
 /* Small-Tablets */
 @media (min-width: 35.5em) {
   #index-content {
@@ -153,6 +141,11 @@ html {
   }
   #about-content h1 {
     color: #EAD075;
+  }
+  #fun-facts ul {
+      padding: 0px;
+      margin-left: 1rem;
+      list-style-type: circle;
   }
   @media (min-width: 35.5em) {
     #about-content {
@@ -202,7 +195,7 @@ html {
   .asymetrical-columns-left {
     float: left;
     width: 15em;
-    margin-right: 4em;
+    margin-right: 2em;
   }
 
   .asymetrical-columns-right {

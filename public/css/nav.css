@@ -110,14 +110,17 @@ nav li a:hover {
 }
 
 @media (max-width: 480px) {
-  html {
-    font-size: 105%;
+  body {
+    font-size: 140%;
   }
   h1 {
       font-size: 160%;
   }
   nav {
       font-size: 140%;
+  }
+  nav li a {
+      font-size: .9rem;
   }
   .navbar {
       line-height: 1.5;
