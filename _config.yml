@@ -33,6 +33,7 @@ bitly:
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Google
 # http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf

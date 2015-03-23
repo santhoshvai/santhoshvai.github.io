@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+redirect_from: "/cv/"
 ---
 
 <p class="message">
