@@ -58,15 +58,16 @@ html {
 }
 
 body {
-  color: #bbb;
-  background-color: #2b2d34;
+  color: #555549;
+  background-color: #fefefd;
+  font-family: 'Lato', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #2B3CD4;
   text-decoration: none;
 }
 a strong {
@@ -83,18 +84,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #b3b3b3;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
+  color: #443742;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 56px;
+  letter-spacing: -3px;
 }
 h2 {
   margin-top: 1rem;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
 }
 h3 {
   margin-top: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -259,7 +265,7 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 /* taken from the HTML5 Boilerplate */
@@ -343,11 +349,6 @@ tbody tr:nth-child(odd) th {
 
 /* Blog post or page title */
 .page-title,
-.post-title,
-.post-title a {
-  color: #EFEFEF;
-}
-.page-title,
 .post-title {
   margin-top: 0;
 }
@@ -364,7 +365,7 @@ tbody tr:nth-child(odd) th {
 .related {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(0,0,0,0.25);
 }
 .related-posts {
   padding-left: 0;
@@ -372,14 +373,14 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts h3 {
   margin-top: 0;
+  display: inline-block;
 }
 .related-posts li small {
   font-size: 75%;
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none;
+  text-decoration-style: bold;
 }
 .related-posts li a:hover small {
   color: inherit;
