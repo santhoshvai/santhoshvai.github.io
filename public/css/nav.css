@@ -103,12 +103,6 @@ nav li a:hover, nav li a:focus {
 }
 
 @media (max-width: 480px) {
-  body {
-    /* font-size: 140%; */
-  }
-  h1 {
-      font-size: 190%;
-  }
   nav {
       font-size: 140%;
   }
