@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello World"
+description: Hello World - first blog post
 ---
 <p class="lead">So it begins. I hope this blog is useful to others. I aim to document some techie stuff and life hacks. </p>
 

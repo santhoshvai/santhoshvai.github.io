@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Python's zip, map, and lambda
+description: A simple explanation of Python's zip, map, and lambda
 tags: ['python', 'code']
 ---
-<p class="lead">A simple explanation</p>
+<p class="lead">A simple explanation </p>
 
 Let us assume that we have got *a* and *b*: two lists of integers. The goal is to merge them into one list, keeping whichever value is the largest at each index.
 

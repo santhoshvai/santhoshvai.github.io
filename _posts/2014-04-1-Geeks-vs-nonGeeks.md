@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Geeks vs. Non-Geeks [Funny Picture]"
+description: A funny picture - Geeks vs. Non-Geeks
 tags: ['code']
 ---
 
