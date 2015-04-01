@@ -90,11 +90,12 @@ h1 {
   font-size: 2rem;
   color: #443742;
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 @media (min-width: 38em) {
   h1 {
     font-size: 56px;
+    letter-spacing: -3px;
   }
 }
 h2 {
