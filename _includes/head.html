@@ -13,7 +13,11 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}"/>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | truncate: 200 | strip_newlines | escape_once }}" />
+  {% else %}
+    <meta name="description" content="{{ content | strip_html | truncate: 200 | strip_newlines | escape_once }}" />
+  {% endif %}
 {% if page.tags %}
   <meta name="keywords" content="{{ page.tags | join: ', ' }}"/>
 {% else %}
@@ -25,7 +29,11 @@
   {% else %}
   <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
   {% endif %}
-  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+  {% if page.description %}
+    <meta name="og:description" content="{{ page.description | truncate: 200 | strip_newlines | escape_once }}" />
+  {% else %}
+    <meta name="og:description" content="{{ content | strip_html | truncate: 200 | strip_newlines | escape_once }}" />
+  {% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:type"   content="website" />
@@ -38,8 +46,12 @@
   {% else %}
   <meta name="twitter:title"  content="{{ page.title }} &middot; {{ site.title }}" />
   {% endif %}
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}"/>
-  <meta name="twitter:creator" content="@{{ site.autor.twitter }}"/>
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description | truncate: 200 | strip_newlines | escape_once }}" />
+  {% else %}
+    <meta name="twitter:description" content="{{ content | strip_html | truncate: 200 | strip_newlines | escape_once }}" />
+  {% endif %}
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}"/>
   <meta name="twitter:domain" content="{{ site.url }}"/>
 <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css"/>
