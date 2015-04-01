@@ -134,7 +134,7 @@ html {
       padding: 0.5rem 1rem 1.5rem;
   }
   #about-content h2 {
-    color: #fff;
+      margin-bottom: 0.4em;
   }
   #fun-facts ul {
       padding: 0px;

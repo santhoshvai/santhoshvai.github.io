@@ -115,7 +115,7 @@ p {
 }
 
 strong {
-  color: #bfbfbf;
+  /*color: #bfbfbf;*/
 }
 
 
@@ -219,8 +219,8 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #959595;
-  border-left: .25rem solid #e5e5e5;
+  color: #777;
+  border-left: .25rem solid #ddd;
 }
 blockquote p:last-child {
   margin-bottom: 0;
