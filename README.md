@@ -17,3 +17,4 @@ TOOLS
 READ
 ====
 * [Automating Front-end Workflow by Addy Osmani](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
+* [Gulp + Jekyll](https://iamcarrico.com/writings/jekyll-workflow-p2-gulp/)
