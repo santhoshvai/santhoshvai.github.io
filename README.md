@@ -12,3 +12,8 @@ TOOLS
 
 ### Gulp
 * [Remove unused CSS selectors - Gulp](https://github.com/ben-eb/gulp-uncss)
+
+
+READ
+====
+* [Automating Front-end Workflow by Addy Osmani](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
