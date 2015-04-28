@@ -6,7 +6,7 @@ redirect_from: "/cv/"
 ---
 ## Professionally
 
-I found out that I love software development only during the end of my teens. Consequently, even with a bachelors degree in electronics and communication with a good GPA, I was only writing software for tiny mini-controllers during that time. This made to me to graduate with a Master of science degree in Embedded software development. Currently I am, **"Jack of few, master of none"**. I enjoy front end web development, I enjoy writing embedded software and also I love to solve algorithmic problems as a back-end developer. My ambition is to be a **Full stack web developer**. I am a newbie to the software industry. I believe in lifelong learning, so I am never an expert in anything. I am passionate about my work.
+I found out that I love software development only during the end of my teens. Consequently, even with a bachelors degree in electronics and communication with a good GPA, I was only writing software for tiny mini-controllers during that time. This made to me to graduate with a Master of science degree in Embedded software development. Currently I am, **"Jack of few, master of none"**. I enjoy front end web development, I enjoy writing embedded software and also I love to solve algorithmic problems as a back-end developer. My ambition is to be a **Full stack web developer**. I am a newbie to the software industry. I believe in [lifelong learning](https://www.class-central.com/u/59199), so I am never an expert in anything. I am passionate about my work.
 
 Looking to recruit me? Check out my [resume](/public/files/Santhosh_CV_detailed.pdf) and
 [mail](mailto:santhoshvai@icloud.com) me if you like my profile.
