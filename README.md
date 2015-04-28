@@ -18,3 +18,4 @@ READ
 ====
 * [Automating Front-end Workflow by Addy Osmani](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
 * [Gulp + Jekyll](https://gist.github.com/benske/f80090c87fa97f4e4098)
+* [A developer's guide to creating gorgeous UI](https://plus.google.com/+AddyOsmani/posts/RaQeuQCiTtA)
