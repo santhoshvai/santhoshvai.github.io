@@ -1,21 +1,7 @@
 # santhoshvai.github.io
 code for my personal website http://santhosh.info
 
-TOOLS
-=====
-### Gradients
-* [uigradients.com](http://uigradients.com/#PurpleBliss)
-* [shade v1.0.0 - Mathematically derived gradient explorer](http://jxnblk.com/shade/)
+## [TOOLS](https://github.com/santhoshvai/santhoshvai.github.io/wiki/Tools)
 
-### Typography
-* [Web colour combinations tester](http://jxnblk.com/colorable/demos/text/)
+## [READ](https://github.com/santhoshvai/santhoshvai.github.io/wiki/READ)
 
-### Gulp
-* [Remove unused CSS selectors - Gulp](https://github.com/ben-eb/gulp-uncss)
-
-
-READ
-====
-* [Automating Front-end Workflow by Addy Osmani](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
-* [Gulp + Jekyll](https://gist.github.com/benske/f80090c87fa97f4e4098)
-* [A developer's guide to creating gorgeous UI](https://plus.google.com/+AddyOsmani/posts/RaQeuQCiTtA)
