@@ -6,11 +6,10 @@
   <body>
 
     {% include navbar.html %}
-    <div id="index-content" class="clearfix">
+    <div id="index-content" class="clearfix page-wrap">
       {{ content }}
-
-      {% include footer.html %}
   </div>
+  {% include footer.html %}
     <!-- google analytics -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

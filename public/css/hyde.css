@@ -1,36 +1,3 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
-
-
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 html {
   letter-spacing: 0.005rem;
   text-rendering: optimizelegibility;
@@ -79,7 +46,8 @@ html {
 /* index */
 #index-content {
     line-height: 1.5;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.5rem 1rem 1.5rem;
 }
 .column-half {
@@ -130,7 +98,8 @@ html {
   #about-content {
       line-height: 1.5;
       max-width: 53.3333em;
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
       padding: 0.5rem 1rem 1.5rem;
   }
   #about-content h2 {
@@ -143,9 +112,6 @@ html {
   }
   @media (min-width: 35.5em) {
     #about-content {
-        line-height: 1.5;
-        max-width: 53.3333em;
-        margin: 0 auto;
         padding: 4rem 1rem 1.5rem;
     }
     #photo-and-caption #photo {
@@ -168,9 +134,6 @@ html {
   }
 @media (min-width: 60em) {
   #about-content {
-      line-height: 1.5;
-      max-width: 53.3333em;
-      margin: 0 auto;
       padding: 4rem 1rem 1.5rem;
   }
   #photo-and-caption #photo {
@@ -196,15 +159,27 @@ html {
     float: left;
   }
 }
-
+/* just to keep footer always at the bottom */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -142px; /* equal to footer height */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 142px;
+}
 /* footer */
 .footer {
   clear: both;
   padding-top: 1rem;
   margin-top: 1rem;
   text-align: center;
-  line-height: 1.15rem;
-  border-top: 1px solid rgba(0,0,0,0.25);
+  width: 100%;
+  border-top: 1px solid rgb(220, 220, 220);
+  background-color: rgb(247, 247, 247);
 }
 #foot-inner {
   margin: 0 auto;
@@ -220,9 +195,11 @@ html {
     vertical-align: baseline;
 }
 .footer p{
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   font-size: 0.7rem;
-  padding-top: 1%;
+  padding: 1em;
 }
 /* the twitter, linkedin.. signature */
 .contact-list {
@@ -247,9 +224,10 @@ html {
   letter-spacing: .13rem;
   display: block;
   margin: 0 auto;
-  color: #FFF;
+  color: #fff;
   padding: 0.5em 0px;
-  background-color: #41413D;
+  background-color: rgb(131, 57, 194);
+  border-radius: 0.5em;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -261,78 +239,8 @@ html {
 
 .contact-list li a:hover {
     text-decoration: none;
-    background-color: #0099CC;
+    background-color: #0078e7;
 }
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
-.sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
-}
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
-
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
-}
-
-/* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}
-
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -342,6 +250,8 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    1rem;
   padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .content a{
   font-weight: bold;
@@ -349,7 +259,6 @@ a.sidebar-nav-item:focus {
 @media (min-width: 35.5em) {
   .content {
     max-width: 33rem;
-    margin: 0 auto;
     padding-top:    3rem;
     padding-bottom: 2rem;
   }
@@ -357,40 +266,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin: 0 auto;
+    max-width: 48rem;
     padding-top:    4rem;
     padding-bottom: 4rem;
-  }
-}
-/* laptops and desktops */
-@media (min-width: 64em) {
-  .content {
-    margin: 0 auto;
-  }
-}
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
   }
 }

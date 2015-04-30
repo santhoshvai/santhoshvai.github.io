@@ -3,7 +3,7 @@ nav {
   height: auto;
   overflow: hidden;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: rgb(103, 58, 131);
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -36,7 +36,7 @@ nav li {
 nav li a {
   font-size: .6rem;
   letter-spacing: .13rem;
-  color: #333;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   display: inline-block;
   -moz-transition: all 0.3s ease;
@@ -45,16 +45,21 @@ nav li a {
   transition: all 0.3s ease;
 }
 
-
-nav li.current a {
-  color:#4183c4;
+nav li.current a{
+    border-bottom: 3px solid rgb(173, 104, 216);
+}
+nav li:hover a{
+    border-bottom: 3px solid rgb(178, 155, 194);
+    text-decoration: none;
+}
+/* nav li.current a {
+  border-bottom: 3px solid rgb(173, 104, 216);
   font-weight: bold;
-}
+}*/
 
-nav li a:hover, nav li a:focus {
-  color:#4183c4;;
+/* nav li a:hover, nav li a:focus {
   text-decoration: none;
-}
+} */
 
 @media screen and (min-width: 640px) {
   html {
