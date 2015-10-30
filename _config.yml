@@ -32,9 +32,11 @@ bitly:
   api_key:        R_cd9f335dde9669e482c420033d1f000a
 
 gems:
-  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
   - jekyll-redirect-from
-  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
 exclude: [node_modules, gulpfile.js, package.json]
 # Google
