@@ -5,7 +5,7 @@ description: "An important advice I found in HackerNews"
 tags: ['tips','life']
 ---
 
-As a newbie to the software industry, I sometimes feel scared out by the scale of things that people do around the world. Its always hard to be persistent. I recently stumbled on the [comment from HackerNews](https://news.ycombinator.com/item?id=8177830). It kept me going. I had to share this,
+As a newbie to the software industry, I sometimes feel scared out by the scale of things that people do around the world. Its always hard to be persistent. I recently stumbled on a [comment from HackerNews](https://news.ycombinator.com/item?id=8177830). It kept me going. I had to share this,
 
 > Why do you want to do great things? Seriously, dig into it. When I ask a lot of people in startups this question and dig long enough, it comes down to money-- they want to be rich, they want to be free.
 
