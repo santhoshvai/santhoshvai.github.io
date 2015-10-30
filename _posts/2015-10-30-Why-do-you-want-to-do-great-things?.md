@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why do you want to do great things?"
+title: "Why do you want to do great things"
 description: "An important advice I found in HackerNews"
 tags: ['tips','life']
 ---
