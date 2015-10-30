@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:  /blog/:title
-relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
 title:            Santhosh Vaiyapuri
@@ -34,6 +34,7 @@ bitly:
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 exclude: [node_modules, gulpfile.js, package.json]
 # Google
