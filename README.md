@@ -1,7 +1,18 @@
 # santhoshvai.github.io
 code for my personal website http://santhosh.info
 
-### [TOOLS](https://github.com/santhoshvai/santhoshvai.github.io/wiki/Tools)
+## Getting started
 
-### [READ](https://github.com/santhoshvai/santhoshvai.github.io/wiki/READ)
+### Install dependencies
 
+```
+gem install jekyll
+gem install bundler
+bundle install
+```
+
+### Local deployment
+
+```
+bundle exec jekyll serve
+```

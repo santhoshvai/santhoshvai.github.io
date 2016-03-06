@@ -26,18 +26,11 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 
-# http://www.xorcode.com/2012/08/16/generate-bitly-links-on-the-fly-with-jekyll-and-liquid/
-bitly:
-  username:       santhoshvai
-  api_key:        R_cd9f335dde9669e482c420033d1f000a
-
 gems:
-  - jekyll-mentions
-  - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
 
-exclude: [node_modules, gulpfile.js, package.json]
+exclude: [node_modules, gulpfile.js, package.json, Gemfile]
 # Google
 # http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf

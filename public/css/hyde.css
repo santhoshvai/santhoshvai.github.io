@@ -80,6 +80,7 @@ html {
       width: 50%;
       float: left;
       margin-bottom: 1.5em;
+      padding-right: 2em;
   }
   #index-content {
       max-width: 80%;
@@ -226,7 +227,7 @@ html {
   margin: 0 auto;
   color: #fff;
   padding: 0.5em 0px;
-  background-color: rgb(131, 57, 194);
+  background-color: rgb(103, 58, 131);
   border-radius: 0.5em;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
