@@ -272,3 +272,8 @@ html {
     padding-bottom: 4rem;
   }
 }
+
+/* Avatar image */
+.rounded {
+  border-radius: 6px;
+}
