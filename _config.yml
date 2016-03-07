@@ -1,6 +1,9 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rogue
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Permalinks
 permalink:  /blog/:title
@@ -19,12 +22,6 @@ author:
   url:            https://twitter.com/santhoshvai
 
 # paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
 
 gems:
   - jekyll-redirect-from
