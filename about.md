@@ -6,7 +6,7 @@ redirect_from: "/cv/"
 ---
 ## Professionally
 
-Passionate Android developer with a graduate education in embedded software development. Loves profiling software for performance, gaining insight and taking action. Good knowledge of the Android SDK and tooling. 2 years of professional Java software development experience.
+I am a  passionate Android developer with a graduate education in embedded software development. I love profiling software for performance, gaining insight and taking action. I have a good knowledge of the Android SDK and its tooling. Two years of professional Java software development experience has given me good object-oriented programming skills.
 
 Looking to recruit an Android developer? Check out my [resume](/public/files/Santhosh_Vaiyapuri_resume.pdf) and [mail](mailto:santhoshvai@gmail.com) me if you like my profile.
 
