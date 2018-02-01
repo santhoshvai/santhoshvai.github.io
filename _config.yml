@@ -14,7 +14,6 @@ title:            Santhosh Vaiyapuri
 tagline:          'Personal Website'
 description:      'This is the Personal Webpage of Santhosh Vaiyapuri. It also links to his resume and blog.'
 url:              http://santhosh.info
-baseurl:          /
 
 author:
   name:           'Santhosh Vaiyapuri'
@@ -23,7 +22,7 @@ author:
 
 # paginate:         5
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
