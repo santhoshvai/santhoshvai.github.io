@@ -8,7 +8,7 @@ redirect_from: "/cv/"
 
 I am a passionate Android developer with a graduate education in embedded software development. I have a good knowledge of the Android SDK and its tooling. I also have quite a bit of experience with the React Native framework.
 
-Looking to recruit an Android developer? Check out my [resume](/public/files/santhosh_vaiyapuri_resume.pdf) and [mail](mailto:santhoshvai@gmail.com) me if you like my profile.
+Looking to recruit an Android developer? Check out my [resume](/public/files/Santhosh_Vaiyapuri_Resume.pdf) and [mail](mailto:santhoshvai@gmail.com) me if you like my profile.
 
 ## Personally
 
