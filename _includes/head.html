@@ -55,10 +55,11 @@
   <meta name="twitter:creator" content="@{{ site.author.twitter }}"/>
   <meta name="twitter:domain" content="{{ site.url }}"/>
 <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css"/>
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css"/>
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css"/>
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/nav.css"/>
+{% include base.html %}
+  <link rel="stylesheet" href="{{base}}public/css/poole.css"/>
+  <link rel="stylesheet" href="{{base}}public/css/syntax.css"/>
+  <link rel="stylesheet" href="{{base}}public/css/hyde.css"/>
+  <link rel="stylesheet" href="{{base}}public/css/nav.css"/>
 
 <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
