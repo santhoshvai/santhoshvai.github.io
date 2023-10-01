@@ -12,4 +12,4 @@ Looking to recruit a Mobile developer? Check out my [resume](/public/files/Santh
 
 ## Personally
 
-I now live at [Almere, Netherlands](https://www.google.nl/maps/place/Almere). My home town is [Dindigul, India](https://www.google.nl/maps/place/Dindigul,+Tamil+Nadu,+India). When I am not writing code, I like to cook. I am a [Tesla](http://www.teslamotors.com/) fanboy.
+I now live at [Almere, Netherlands](https://www.google.nl/maps/place/Almere). My home town is [Dindigul, India](https://www.google.nl/maps/place/Dindigul,+Tamil+Nadu,+India). When I am not writing code, I like to cook.
